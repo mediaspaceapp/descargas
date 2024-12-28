@@ -125,40 +125,39 @@ footer {
 
 /* Banner promocional */
 .promo-banner {
-    margin: 20px 0;
-    padding: 15px;
+    margin: 30px 0; /* Aumenta el margen para más espacio arriba y abajo */
+    padding: 20px; /* Ajusta el relleno interno para un diseño más espacioso */
     background-color: #1a73e8;
     color: #fff;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Mejora el efecto de sombra */
 }
 
 .promo-banner h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.6em; /* Aumenta ligeramente el tamaño de la fuente */
+    margin-bottom: 15px; /* Mayor espacio debajo del título */
 }
 
 .promo-banner p {
-    margin: 5px 0;
-    font-size: 0.95em;
+    margin: 8px 0; /* Ajusta los márgenes entre los párrafos */
+    font-size: 1em; /* Uniformiza el tamaño de fuente */
 }
 
 .promo-link {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
+    margin-top: 15px; /* Aumenta el espacio entre el texto y el botón */
+    padding: 12px 24px; /* Botón más grande para mejor visibilidad */
     background-color: #1558b2;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Bordes más redondeados */
     font-size: 1em;
     font-weight: bold;
-    transition: background-color 0.2s;
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transformación */
 }
 
 .promo-link:hover {
     background-color: #0f3e8a;
-}
-
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
 }
